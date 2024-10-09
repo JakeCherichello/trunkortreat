@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f8f8f8;
+}
+
+.navbar {
+    background-color: #5e4094;
+}
+
+.navbar-brand, .nav-link {
+    color: #f8f8f8 !important;
+}
+
+h1, h2 {
+    color: #ff8f44;
+}
+
+.btn-primary {
+    background-color: #ff8f44;
+    border-color: #ff8f44;
+}
+
+.btn-primary:hover {
+    background-color: #ff8f44;
+    border-color: #ff8f44;
+}
+
+footer {
+    background-color: #5e4094;
+    color: #f8f8f8;
+}
+
+.trunk-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+}
+
+.trunk-image {
+    transition: transform 0.3s ease;
+}
+
+.trunk-container:hover .trunk-image {
+    transform: scale(1.05);
+}
+
+.trunk-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(44, 26, 77, 0.8);
+    padding: 15px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.trunk-container:hover .trunk-description {
+    transform: translateY(0);
+}
+
+.list-group-item {
+    background-color: #5e4094;
+    color: #f8f8f8;
+    border-color: #ff8f44;
+}
+
+.event-heading {
+    cursor: pointer;
+}
+
+.event-heading:hover {
+    color: #ff8f44;
+}
