@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    // Home page
+    $('#moreInfoBtn').on('click', function() {
+        $('#eventDescription').toggle();
+    });
 
     // Trunk showcase page
     $('.trunk-container').on('mouseenter', function() {
@@ -7,5 +11,5 @@ $(document).ready(function() {
         $(this).find('.trunk-description').css('transform', 'translateY(100%)');
     });
 
-   
+    
 });
