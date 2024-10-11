@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   =
+
     // Trunk showcase page
     $('.trunk-container').on('mouseenter', function() {
         $(this).find('.trunk-description').css('transform', 'translateY(0)');
@@ -7,5 +7,5 @@ $(document).ready(function() {
         $(this).find('.trunk-description').css('transform', 'translateY(100%)');
     });
 
-
+   
 });
