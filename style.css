@@ -1,5 +1,7 @@
 body {
-    font-family: 'Arial', sans-serif;
+        font-family: "Gloria Hallelujah", cursive;
+        font-weight: 400;
+        font-style: normal;   
     background-color: #1a1a1a;
     color: #f8f8f8;
 }
@@ -14,6 +16,10 @@ body {
 
 h1, h2 {
     color: #ff8f44;
+    
+        font-family: "Gloria Hallelujah", cursive;
+        font-weight: 400;
+        font-style: normal; 
 }
 
 .btn-primary {
